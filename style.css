@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 .container{
+    max-height: 100vh;
     max-width:1440px ;
 }
 .back{
@@ -39,11 +40,13 @@ header{
     display: flex;
 }
 .top-left{
-    flex: 40%;
-    margin-right: 4%;
+    flex: 50%;
+    
+    max-width: 500px;
 }
 .top-right{
-    flex: 40%;
+    flex: 50%;
+    max-width: 80%;
 }
 .mockups-img{
    max-width: 100%;
@@ -58,8 +61,11 @@ p{
     color: white;
     border-radius: 20px;
     background-color: hsl(322, 100%, 66%);
-    width: 145px;
+    width: 195px;
     height: 30px;
+}
+.intro{
+    margin-right: 70px;
 }
 .pink-btn:hover, .center-btn:hover{
     background-color:  hsl(322, 100%, 66%);
@@ -102,15 +108,20 @@ p{
    display: block;
    /* place-items: center; */
 }
+.mid-3{
+    margin-bottom: 250px;
+}
 .center{
 text-align: center;
 background-color: antiquewhite;
-padding: 50px;
-width: 600px;
-position: relative;
-/* bottom: -100px; */
-left:100px;
-
+padding: 70px;
+position: absolute;
+top: 2240px;
+left:400px;
+z-index: 99;
+}
+.center h1{
+    margin: 0 auto 10px;
 }
 
 .footer{
@@ -121,7 +132,7 @@ left:100px;
 }
 .foot-section{
     max-width: 90%;
-    margin: auto;
+    margin:70px auto 10px;
 }
 .foot-huddle-img{
     filter: invert(100%)
@@ -182,6 +193,10 @@ ul{
 .foot-col .social-links a:hover{
     color: #24262b;
     background-color: hsl(322, 100%, 66%);
+}
+.fab fa-facebook-f{
+    border-radius: 50%;
+    border: 1px solid white;
 }
 .copywright{
     font-size: 12px;
