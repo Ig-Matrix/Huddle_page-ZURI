@@ -296,11 +296,32 @@ ul{
     
     .center{
              position: absolute;
-             top: 2699px;
+             top: 2799px;
              left:5px;
              z-index: 99;
              margin-bottom: 40px;
 
     }
+    .row{
+        flex-direction: column;
+    }
+    .end1{
+        margin-top: 50px;
+    }
+    .end{
+        margin-bottom: 16px;
+    }
+    .social-links{
+        text-align: center;
+    }
+    .endcopy{
+        text-align: center;    
+   }
+   .fab{
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 50%;
+    
+   }
     
 }
