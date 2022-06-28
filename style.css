@@ -296,14 +296,15 @@ ul{
     
     .center{
              position: absolute;
-             top: 2799px;
+             top: 2899px;
              left:5px;
              z-index: 99;
-             margin-bottom: 40px;
-
     }
     .row{
         flex-direction: column;
+    }
+    .foot-section{
+        margin-top:120px;
     }
     .end1{
         margin-top: 50px;
@@ -323,5 +324,15 @@ ul{
     border-radius: 50%;
     
    }
+    
+}
+@media only screen and (max-width:710px){
+    .center{
+             position: absolute;
+             top: 2200px;
+             left:2px;
+             z-index: 99;
+
+    }
     
 }
