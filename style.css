@@ -235,7 +235,6 @@ ul{
     }
     .top-left, .top-right{
         flex: 100%;
-        margin-top: 20px;
     }
     .pink-btn1{
         margin-top: 20px;
@@ -282,4 +281,9 @@ ul{
    }
     
 }
-
+@media screen  and (max-width:375px){
+    .center{
+        max-width: 200px;
+    }
+    
+}
