@@ -180,6 +180,7 @@ h3{
     display: flex;
 }
 .foot-col{
+
     flex-basis: 20%;
     margin-right: 60px;
 }
@@ -228,7 +229,7 @@ ul{
     margin-right: 70px;
 }
 
-@media only screen and (max-width:710px){
+@media only screen and (max-width:375px){
     .top{
         display: flex;
         flex-direction: column;
@@ -242,8 +243,14 @@ ul{
     .top-left, .top-right{
                 text-align: center;   
     }
+     .intro1{
+        margin: 60px 0 10px;
+    }
+    .intro{
+        margin: 20px 0 15px;
+    }
     .mid-section{
-        padding: 80px 10px;
+        padding: 80px 15px;
 
     }
     .mid-1, .mid-3{
@@ -279,11 +286,5 @@ ul{
     border-radius: 50%;
     
    }
-    
-}
-@media screen  and (max-width:375px){
-    .center{
-        max-width: 200px;
-    }
     
 }
