@@ -60,13 +60,13 @@ p{
     align-items: center;
 
 }
-.pink-btn, .center-btn{
-    border-style: none;
-    color: white;
-    border-radius: 20px;
-    background-color: hsl(322, 100%, 66%);
-    width: 195px;
-    height: 30px;
+.pink-btn, .center-btn1{
+        border-style: none;
+        color: white;
+        border-radius: 40px;
+        background-color: hsl(322, 100%, 66%);
+        width: 300px;
+        height: 50px;
 }
 .intro{
     margin-right: 70px;
@@ -83,7 +83,7 @@ h3{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
-.pink-btn:hover, .center-btn:hover{
+.pink-btn:hover, .center-btn1:hover{
     background-color:  hsl(322, 100%, 66%);
 }
 .mid-section{
@@ -128,27 +128,20 @@ h3{
 }
 .center{
     text-align: center;
-box-shadow: 0 3px 6px rgba(51, 21, 21, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-background-color: white;
-padding: 40px;
-width: 600px;
-position: relative;
-bottom: -60px;
-margin: 0 auto;
-z-index: 3;
-border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(51, 21, 21, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background-color: white;
+    padding: 40px;
+    max-width: 600px;
+    position: relative;
+    bottom: -60px;
+    margin: 0 auto;
+    z-index: 3;
+    border-radius: 10px;
 }
 .center h2{
     margin: 0 auto 26px;
 }
-.center-btn1{
-    border-style: none;
-    color: white;
-    border-radius: 40px;
-    background-color: hsl(322, 100%, 66%);
-    width: 300px;
-    height: 50px;
-}
+
 .intro3, .intro1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -249,6 +242,10 @@ ul{
     .top-left, .top-right{
                 text-align: center;   
     }
+    .mid-section{
+        padding: 80px 10px;
+
+    }
     .mid-1, .mid-3{
         flex-direction: column-reverse;
     }
@@ -284,3 +281,4 @@ ul{
    }
     
 }
+
