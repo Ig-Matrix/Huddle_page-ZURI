@@ -249,6 +249,9 @@ ul{
     .intro{
         margin: 20px 0 15px;
     }
+    .center{
+        width: 450px;
+    }
     .mid-section{
         padding: 80px 15px;
 
